@@ -1,0 +1,30 @@
+  /* CSS for centering elements and styling */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+#color-code {
+    font-size: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
